@@ -1,11 +1,11 @@
 {
     "tasks": {
-		"run": "deno run -A --watch main.ts"
-	},
+        "run": "deno run --watch main.ts"
+    },
     "imports": {
         "@pkg/printer": "jsr:@pkg/printer@1.0.0"
     },
-    "patch": [
+    "links": [
         "../pkg/printer"
     ]
 }
